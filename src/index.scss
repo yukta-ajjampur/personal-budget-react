@@ -360,9 +360,11 @@ body {
     font-family: Tahoma, Arial;
 }
 
+$bg-color: #4d5791;
+
 nav {
     width: 100%;
-    background-color: #4d5791;
+    background-color: $bg-color;
     height: 44px;
     padding: 0 40px;
 }
@@ -390,9 +392,11 @@ nav ul li a:hover {
     color: #4d5791;
 }
 
+$div-color: #b4c6f0;
+
 div.hero {
     height: 350px;
-    background-color: #b4c6f0;
+    background-color: $div-color;
     background-image: url("./assets/bg.png");
     background-size: 400px;
     background-repeat: no-repeat;
